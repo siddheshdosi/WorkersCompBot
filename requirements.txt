@@ -1,0 +1,4 @@
+streamlit
+langchain_google_genai
+langchain==0.3.14
+python-dotenv
