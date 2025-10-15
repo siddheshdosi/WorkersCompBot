@@ -56,6 +56,8 @@ Note:
  "I am designed to answer queries related to worker's claim only. How can I assist you with that?"
 * Your answer should be precise, short and related to worker's claim only.
 * Don't give all details of claim, just provide the exact answer of question.
+* your answer should be in bullet points if you are providing multiple information.
+
 
 """
 prompt_template = ChatPromptTemplate([
@@ -127,4 +129,5 @@ if user_input:
     st.session_state["messages"].append(("bot", bot_response))
 
     st.rerun()
+
 
